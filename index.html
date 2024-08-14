@@ -14,14 +14,17 @@
 <body>
     <header>
        <nav>
-            <a href="./index.html" class="link">WebStudio</a>
+        <div class="logo">
+            <a href="./index.html" class="link-title-web">Web</a>
+            <a href="./index.html" <span class="link-title-studio">Studio</span></a>
+        </div>
             <ul class="list">
-                <li><a href="Studio" class="link">Studio</a></li>
-                <li><a href="Portfolio" class="link">Portfolio</a></li>
-                <li><a href="Contacts" class="link">Contacts</a></li>
+                <li><a href="./index.html" class="link">Studio</a></li>
+                <li><a href="" class="link">Portfolio</a></li>
+                <li><a href="" class="link">Contacts</a></li>
             </ul> 
         </nav>
-        <address>
+        <address class="addr">
             <ul class="list">
                 <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
@@ -31,17 +34,15 @@
 
     <main>
         <section class="blok-top">
-        <div class="bloc-text-btn">
             <h1 class="blok-text">Effective Solutions for Your Business</h1>
             <button class="blok-btn">Order Service</button>
-        </div>
         </section>
 
         <section>
             <h2>Our goals</h2>
-            <ul class="list" >
-               <li><h3>Strategy</h3>
-               <p>Our goal is to identify the business
+            <ul class="goals" >
+               <li><h3 class="goals-title">Strategy</h3>
+               <p class="goals-text">Our goal is to identify the business
                 problem to walk away with the perfect and creative solution.
                </p>
                </li> 
@@ -61,73 +62,75 @@
         </section>
 
         <section>
-            <h2>Our Team</h2>
-            <ul class="list">
-                <li><h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+            <h2 class="title-team">Our Team</h2>
+            <ul class="team">
+                <li><h3 class="team-name">Mark Guerrero</h3>
+                    <p class="team-text">Product Designer</p>
                     <img src="./images/1Mark.jpg" alt="Product Designer" width="264"/>
                 </li>
-                <li><h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                <li><h3 class="team-name">Tom Ford</h3>
+                    <p class="team-text">Frontend Developer</p>
                     <img src="./images/2Tom.jpg" alt="Frontend Developer" width="264"/>
                 </li>
-                <li><h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                <li><h3 class="team-name">Camila Garcia</h3>
+                    <p class="team-text">Marketing</p>
                     <img src="./images/3Camila.jpg" alt="Marketing" width="264"/>
                 </li>
                 <li>
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                    <h3 class="team-name">Daniel Wilson</h3>
+                    <p class="team-text">UI Designer</p>
                     <img src="./images/4Daniel.jpg" alt="UI Designer" width="264"/>
                 </li>
             </ul>
         </section>
         <section>
-            <h2>Our Portfolio</h2>
+            <h2 class="title-team">Our Portfolio</h2>
             <ul class="list">
                 <li>
-                    <h3>Banking App</h3>
-                    <p>App</p>
-                    <img src="./images/banking.jpg" alt="Banking App" width="264"/>
+                    <img src="./images/banking.jpg" alt="Banking App" width="360"/>
+                    <h3 class="team-name">Banking App</h3>
+                    <p class="team-text">App</p>
                 </li>
                 <li>
-                    <h3>Cashless Payment</h3>
-                    <p>Marketing</p>
-                    <img src="./images/cashless.jpg" alt="Cashless Payment" width="264"/>
+                    <img src="./images/cashless.jpg" alt="Cashless Payment" width="360"/>
+                    <h3 class="team-name">Cashless Payment</h3>
+                    <p class="team-text">Marketing</p>
                 </li>
                 <li>
-                    <h3>Meditation App</h3>
-                    <p>App</p>
-                    <img src="./images/meditation.jpg" alt="Meditation App" width="264"/>
+                    <img src="./images/meditation.jpg" alt="Meditation App" width="360"/>
+                    <h3 class="team-name">Meditation App</h3>
+                    <p class="team-text">App</p>
                 </li>
                 <li>
-                    <h3>Taxi Service</h3>
-                    <p>Marketing</p>
-                    <img src="./images/taxi.jpg" alt="Taxi Service" width="264"/>
+                    <img src="./images/taxi.jpg" alt="Taxi Service" width="360"/>
+                    <h3 class="team-name">Taxi Service</h3>
+                    <p class="team-text">Marketing</p>
                 </li>
                 <li>
-                    <h3>Screen Illustrations</h3>
-                    <p>Design</p>
-                    <img src="./images/screen.jpg" alt="Screen Illustrations" width="264"/>
+                    <img src="./images/screen.jpg" alt="Screen Illustrations" width="360"/>
+                    <h3 class="team-name">Screen Illustrations</h3>
+                    <p class="team-text">Design</p>
                 </li>
                 <li>
-                    <h3>Online Courses</h3>
-                    <p>Marketing</p>
-                    <img src="./images/online.jpg" alt="Online Courses" width="264"/>
+                    <img src="./images/online.jpg" alt="Online Courses" width="360"/>
+                    <h3 class="team-name">Online Courses</h3>
+                    <p class="team-text">Marketing</p>
                 </li>
             </ul>         
-            
         </section>
         
     </main>
     <footer>
-    <div class="footer-blok">
-        <a href="./index.html" class="footer-blok-link">WebStudio</a>
+    <section class="footer-blok">
+    <div class="logo-footer-blok">
+            <a href="./index.html" class="footer-title-web">Web</a>
+            <a href="./index.html" <span class="link-title-footer">Studio</span></a>
         <p class="footer-blok-text">Increase the flow of customers and
         sales for your business with digital
         marketing & growth solutions.
         </p>
     </div>
+    </section>
     </footer>         
 </body>
 </html>
