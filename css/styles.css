@@ -81,7 +81,7 @@ body {
 .link:focus {
     color: #404bbf;
 }
-.goals {
+.our-goals {
     list-style-type: none;
 }
 .goals-title {
@@ -93,7 +93,6 @@ body {
     color: #2e2f42;
 }
 .goals-text {
-    font-weight: 400;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -104,6 +103,9 @@ body {
     background-color: #f4f4fd 
 }
 .team {
+    background-color: #ffffff;
+}
+.ford {
     background-color: #ffffff;
 }
 .title-team {
