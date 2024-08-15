@@ -3,7 +3,7 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-.link-title-web {
+.logo-web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -13,17 +13,18 @@ body {
     color: #4d5ae5;
     text-decoration: none;
 }
-.link-title-studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.logo-studio {
     color: #2e2f42;
-    text-decoration: none;
-    }
-.addr {
+}
+.list-main {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+ .list-mob {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -47,7 +48,7 @@ body {
     text-align: center;
     color: #fff;
  }
-.blok-top-btn {
+.blok-btn {
     border-radius: 4px;
     background: #4d5ae5;
     cursor: pointer;
@@ -64,8 +65,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04;
  } 
- .blok-top-btn:hover,
- .blok-top-btn:focus {
+ .blok-btn:hover,
+ .blok-btn:focus {
     background-color: #404bbf ;
  }
  
@@ -77,8 +78,12 @@ body {
     color: #2e2f42;
     text-decoration: none;
 }
-.link:hover,
-.link:focus {
+.list-main:hover,
+.list-main:focus {
+    color: #404bbf;
+}
+.list-mob:hover,
+.list-mob:focus {
     color: #404bbf;
 }
 .goals {
@@ -100,8 +105,11 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
-.team {
+.group-section {
     background-color: #f4f4fd 
+}
+.team {
+    background-color: #ffffff;
 }
 .title-team {
     font-weight: 700;
@@ -110,6 +118,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize 
 }
 .team-name {
     font-weight: 500;
@@ -135,11 +144,8 @@ body {
     text-align: center;
     color: #2e2f42;
 }
-
-.logo-footer-blok {
-    width: 1440px;
-    height: 312px;
-    background: #2e2f42;
+.footer-blok {
+    background-color: #2e2f42;
 }
 .footer-blok-text {
     font-weight: 400;
