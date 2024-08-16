@@ -1,4 +1,4 @@
-body {
+.zmist {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
@@ -31,8 +31,6 @@ body {
     list-style-type: none;
  }
 .blok-top {
-    width: 1440px;
-    height: 600px;
     background-color: #2e2f42;
 }
 .blok-text {
@@ -44,16 +42,10 @@ body {
     color: #fff;
  }
 .blok-btn {
-    border-radius: 4px;
     background: #4d5ae5;
     cursor: pointer;
     margin: 0 auto;
-    display: block;
     color: #fff;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
-    padding-bottom: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -92,10 +84,10 @@ body {
     color: #2e2f42;
 }
 .goals-text {
-    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 .group-section {
     background-color: #f4f4fd 
@@ -126,7 +118,7 @@ body {
 .team-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
@@ -157,7 +149,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
