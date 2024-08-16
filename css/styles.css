@@ -95,6 +95,9 @@ body {
 .team {
     background-color: #ffffff;
 }
+.team-color {
+    background-color: #FFFFFF
+}
 .title-team {
     font-weight: 700;
     font-size: 36px;
