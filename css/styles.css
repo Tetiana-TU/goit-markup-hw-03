@@ -1,7 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+ }
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
 }
 .logo-conteyner {
     font-family: "Raleway", sans-serif;
@@ -12,6 +29,9 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 156px;
 }
 .logo-st {
     color: #2e2f42;
@@ -30,6 +50,11 @@ body {
  }
 .list {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+    margin-top: 24px;
+    margin-bottom: 24px;
      }
 .blok-top {
     background-color: #2e2f42;
@@ -39,25 +64,42 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
- }
+    text-align: center;
+    margin-top: 188px;
+    margin-left: 472px;
+    margin-right: 472px;
+    margin-bottom: 48px;
+}
 .blok-btn {
+    border-radius: 4px;
     background: #4d5ae5;
     cursor: pointer;
-    margin: 0 auto;
-    color: #fff;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
- } 
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+    margin-bottom: 188px;
+    margin-left: auto;
+    margin-right: auto;
+} 
  .blok-btn:hover,
  .blok-btn:focus {
     background-color: #404bbf ;
  }
- 
+ .cont-all {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    flex-direction: column;
+ }
 .link {
     font-weight: 500;
     font-size: 16px;
@@ -65,6 +107,14 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    
+}
+.addr {
+    display: flex;
+    margin-left: 156px;
+}
+.navigator {
+    display: flex;
 }
 .list-main:hover,
 .list-main:focus {
@@ -84,7 +134,7 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-    .our-goals-text {
+.our-goals-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -173,3 +223,20 @@ body {
 .logo-st-footer {
     color: #f4f4fd
 }
+.container {
+    width: 1440px;
+    height: 3300px;
+    display: inline;
+}
+.container-top {
+    height: 72px;
+    display: flex;
+    align-items: baseline;
+
+}
+.container-blok-top {
+    width: 1440px;
+    height: 600px;
+}
+
+
