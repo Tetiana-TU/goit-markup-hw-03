@@ -19,15 +19,25 @@ ul {
     padding-left: 0;
 }
 .container {
+    display: flex;
     max-width: 1128px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 141px;
-    margin-right: 141px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.section {
+    
 }
 .header-all {
+    display: flex;
     border-bottom: 1px solid #e7e9fc;
+    height: 72px;
+    margin-top: 24px;
+    
+        
 }
+
 .logo-conteyner {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -37,6 +47,11 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-left: 0;
+    
+}
+.navigator {
+    display: flex;
 }
 .logo-st {
     color: #2e2f42;
@@ -49,12 +64,15 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    margin-right: 0;
+    
  }
 .list {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    margin-left: 76px;
 }
 .blok-text {
     font-weight: 700;
@@ -64,9 +82,8 @@ ul {
     color: #fff;
     text-align: center;
     margin-top: 188px;
-    margin-left: 472px;
-    margin-right: 472px;
-    margin-bottom: 48px;
+    margin-left: 331px;
+    margin-right: 331px;
 }
 .blok-btn {
     border-radius: 4px;
@@ -77,14 +94,14 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-    box-sizing: border-box;
-    margin-bottom: 188px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    margin-top: 48px;
+    margin-left: 480px;
+    text-align: center;
+
+    
 } 
  .blok-btn:hover,
  .blok-btn:focus {
@@ -92,8 +109,9 @@ ul {
  }
 
 .addr {
-    display: flex;
     font-style: normal;
+    align-content: flex-end;
+    margin-right: 0;
 }
 .list-main:hover,
 .list-main:focus {
@@ -114,12 +132,14 @@ ul {
 }
 .sect1-effect {
     width: 1128px;
-    heidht: 104px;
+    height: 600px;
     background: #2e2f42;
+    
 }
 .our-goals-spus {
     list-style: none;
     display: flex;
+    margin-top: 120px;
 }
 .our-goals-title {
     font-weight: 500;
@@ -156,16 +176,24 @@ ul {
     background-color: #f4f4fd
     list-style: none;
     display: flex;
-    gap: 12px;
     align-items: center;
+}
+.cont-title-team {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 72px;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+.cont-ul-team {
+    display: flex;
+    margin-left: 0;
 }
 .team-color {
     height: 380px;
     background-color: #fff;
-    margin-top: 72px;
-    padding-left: 156px;
-    padding-bottom: 120px;
     width: calc((100%-72px) / 4);
+    margin-left: 0;
 }
 .title-team-goals {
     font-weight: 700;
@@ -184,9 +212,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    margin-top: 120px;
-    margin-left: 611px;
-    margin-bottom: 72px;
+    
 }
 .team-name {
     font-weight: 500;
