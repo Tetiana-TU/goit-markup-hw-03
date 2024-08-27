@@ -3,13 +3,11 @@
 *::after {
   box-sizing: border-box;
  }
-
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
-
 h1,
 h2,
 h3,
@@ -21,8 +19,14 @@ ul {
     padding-left: 0;
 }
 .container {
-    max-width: 1158px;
-
+    max-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 141px;
+    margin-right: 141px;
+}
+.header-all {
+    border-bottom: 1px solid #e7e9fc;
 }
 .logo-conteyner {
     font-family: "Raleway", sans-serif;
@@ -33,9 +37,6 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 156px;
 }
 .logo-st {
     color: #2e2f42;
@@ -92,7 +93,6 @@ ul {
 
 .addr {
     display: flex;
-    margin-left: 156px;
     font-style: normal;
 }
 .list-main:hover,
@@ -111,6 +111,11 @@ ul {
 .link:hover,
 .link:focus {
     color: #404bbf;
+}
+.sect1-effect {
+    width: 1128px;
+    heidht: 104px;
+    background: #2e2f42;
 }
 .our-goals-spus {
     list-style: none;
