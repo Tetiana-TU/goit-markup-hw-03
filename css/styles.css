@@ -198,10 +198,7 @@ ul {
     gap: 24px;
     margin-left: 0;
 }
-.cont-li-team {
-    width: calc((100% - 72px) / 4);
-    display: flex;
-}
+
 .team-color {
     height: 380px;
     background-color: #fff;
