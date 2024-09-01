@@ -45,6 +45,11 @@ img {
 .cont-nav-addr {
   display: flex;
   align-items: center;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo-conteyner {
   display: inline-block;
@@ -86,7 +91,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.sect1-effect {
+.sect-effect {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -118,7 +123,6 @@ img {
 .blok-btn:focus {
   background-color: #404bbf;
 }
-
 .link {
   font-weight: 500;
   font-size: 16px;
@@ -132,7 +136,6 @@ img {
 .link:focus {
   color: #404bbf;
 }
-
 .our-goals-spus {
   display: flex;
   list-style: none;
@@ -187,7 +190,6 @@ img {
   background: #f4f4fd;
   padding: 120px 0;
 }
-
 .team {
   display: flex;
   gap: 24px;
@@ -201,7 +203,7 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.cont-h3-team {
+.cont-h-team {
   padding: 32px 0 32px;
 }
 .title-team {
@@ -248,7 +250,6 @@ img {
   border-top: none;
   margin-bottom: 8px;
 }
-
 .portf-title {
   font-weight: 500;
   font-size: 20px;
