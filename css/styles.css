@@ -45,6 +45,7 @@ img {
 .cont-nav-addr {
   display: flex;
   align-items: center;
+  width: 1158px;
 }
 .logo-conteyner {
   display: inline-block;
