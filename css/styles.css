@@ -45,11 +45,6 @@ img {
 .cont-nav-addr {
   display: flex;
   align-items: center;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .logo-conteyner {
   display: inline-block;
