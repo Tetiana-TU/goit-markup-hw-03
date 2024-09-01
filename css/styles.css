@@ -17,6 +17,7 @@ p {
 ul {
   margin: 0;
   padding-left: 0;
+  list-style-type: none;
 }
 li {
   list-style-type: none;
@@ -30,27 +31,23 @@ li {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .section {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .header-all {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
-  width: 1158px;
-  height: 72px;
-  align-items: center;
-  margin: 0 auto;
-}
-.addr {
-  margin: 0 auto;
 }
 .cont-nav-addr {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
+  align-items: center;
 }
 .logo-conteyner {
+  display: inline-block;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -58,23 +55,18 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-left: 0;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .navigator {
   display: flex;
-  gap: 40px;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-right: 332px;
 }
 .logo-st {
   color: #2e2f42;
 }
 .list-main {
-  display: flex;
+  display: inline-block;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -82,18 +74,22 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  gap: 40px;
   list-style-type: none;
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.list-main:hover,
+.list-main:focus {
+  color: #404bbf;
+}
 .list-link {
   display: flex;
   gap: 40px;
-  list-style-type: none;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+}
+.sect1-effect {
+  background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .blok-text {
   font-weight: 700;
@@ -115,15 +111,14 @@ img {
   margin-top: 48px;
   margin-left: 480px;
   border: 0;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .blok-btn:hover,
 .blok-btn:focus {
   background-color: #404bbf;
 }
-.list-main:hover,
-.list-main:focus {
-  color: #404bbf;
-}
+
 .link {
   font-weight: 500;
   font-size: 16px;
@@ -131,20 +126,13 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
-  margin-right: 40px;
+  padding: 24px 0;
 }
 .link:hover,
 .link:focus {
   color: #404bbf;
 }
-.sect1-effect {
-  width: 1158px;
-  height: 600px;
-  background: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  align-items: center;
-}
+
 .our-goals-spus {
   display: flex;
   list-style: none;
@@ -162,7 +150,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.goals4 {
+.goals-four {
   width: calc((100% - 72px) / 4);
 }
 .our-goals-title {
@@ -186,8 +174,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
-  margin-top: 32px;
-  list-style: none;
   margin-bottom: 8px;
 }
 .group-section-text {
@@ -197,6 +183,11 @@ img {
   color: #434455;
   text-align: center;
 }
+.section-team {
+  background: #f4f4fd;
+  padding: 120px 0;
+}
+
 .team {
   display: flex;
   gap: 24px;
@@ -208,6 +199,7 @@ img {
   height: 380px;
   background-color: #fff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .cont-h3-team {
   padding: 32px 0 32px;
@@ -222,7 +214,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-name {
   font-weight: 500;
@@ -251,10 +243,12 @@ img {
   width: calc((100% - 48px) / 3);
 }
 .portf1 {
-  width: 360px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin-bottom: 8px;
 }
+
 .portf-title {
   font-weight: 500;
   font-size: 20px;
@@ -274,20 +268,12 @@ img {
   margin-left: 16px;
   margin-bottom: 32px;
 }
-.cont-foot {
-  width: 1158px;
-}
 .footer-blok {
-  display: block;
-  align-items: center;
-  margin: auto;
   background-color: #2e2f42;
-  width: 1158px;
-  height: 312px;
+  padding: 100px 0;
 }
 .logo-cont-footer {
   display: inline-block;
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -295,7 +281,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  padding-top: 100px;
   margin-bottom: 16px;
 }
 .logo-st-footer {
@@ -308,6 +293,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  height: 72px;
 }
-
