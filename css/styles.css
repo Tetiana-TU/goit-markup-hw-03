@@ -39,16 +39,15 @@ img {
   padding-bottom: 120px;
 }
 .header-all {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 .cont-nav-addr {
   display: flex;
   align-items: center;
-  width: 1158px;
 }
 .logo-conteyner {
   display: inline-block;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -61,7 +60,7 @@ img {
 .navigator {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  margin-right: auto;
 }
 .logo-st {
   color: #2e2f42;
@@ -99,7 +98,8 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
-  margin-left: 331px;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 496px;
 }
 .blok-btn {
@@ -110,7 +110,8 @@ img {
   min-width: 169px;
   height: 56px;
   margin-top: 48px;
-  margin-left: 480px;
+  margin-left: auto;
+  margin-right: auto;
   border: 0;
   border-radius: 4px;
   cursor: pointer;
@@ -127,6 +128,7 @@ img {
   color: #2e2f42;
   text-decoration: none;
   padding: 24px 0;
+  display: block;
 }
 .link:hover,
 .link:focus {
@@ -194,7 +196,6 @@ img {
   background-color: #f4f4fd;
 }
 .team-color {
-  height: 380px;
   background-color: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -211,7 +212,6 @@ img {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .team-name {
@@ -237,14 +237,12 @@ img {
   row-gap: 48px;
 }
 .img-portfolio {
-  display: block;
   width: calc((100% - 48px) / 3);
 }
 .portf1 {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .portf-title {
   font-weight: 500;
@@ -252,9 +250,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
-  margin-left: 16px;
-  margin-bottom: 8px;
 }
 .portf-text {
   font-weight: 400;
@@ -262,8 +257,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
 .footer-blok {
   background-color: #2e2f42;
@@ -271,6 +264,7 @@ img {
 }
 .logo-cont-footer {
   display: inline-block;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
